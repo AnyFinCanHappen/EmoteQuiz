@@ -3,7 +3,7 @@ import com.fasterxml.jackson.core.JsonParseException;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import src.logger.ServiceLogger;
-import src.base.*;
+import src.models.base.*;
 import org.glassfish.jersey.jackson.JacksonFeature;
 import javax.ws.rs.client.*;
 import javax.ws.rs.core.MediaType;
@@ -55,25 +55,29 @@ public class Util
     }
 
 
-    public static <T> T getBTTVEmotes(Class<T> className)
+    public static <T> T getBTTVEmotes(Class<T> className,int limit, int offset) throws IOException
     {
         ServiceLogger.LOGGER.info("Building client...");
         Client client = ClientBuilder.newClient();
         client.register(JacksonFeature.class);
-        WebTarget webTarget = client.target("https://api.betterttv.net/3/").path("emotes/shared/top");
+        WebTarget webTarget = client.target("https://api.betterttv.net/3/").path("emotes/shared/top")
+                .queryParam("limit",limit)
+                .queryParam("offset",offset);
 
         // Create an InvocationBuilder to create the HTTP request
         ServiceLogger.LOGGER.info("Starting invocation builder...");
         Invocation.Builder invocationBuilder = webTarget.request(MediaType.APPLICATION_JSON);
-
         // Send the request and save it to a Response
         ServiceLogger.LOGGER.info("Sending request...");
         //Response response = invocationBuilder.post(Entity.entity(requestModel, MediaType.APPLICATION_JSON));
         Response response = invocationBuilder.get();
         ServiceLogger.LOGGER.info("Request sent.");
         ServiceLogger.LOGGER.info("Received status " + response.getStatus());
+        if(response.getStatus() != 200){
+            throw new IOException();
+        }
         String jsonText = response.readEntity(String.class);
-        ServiceLogger.LOGGER.info(jsonText);
+        //ServiceLogger.LOGGER.info(jsonText);
         return modelMapper(jsonText, className);
     }
 

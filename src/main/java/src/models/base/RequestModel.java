@@ -1,4 +1,4 @@
-package src.base;
+package src.models.base;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

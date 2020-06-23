@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bcda0c6e-1c6d-415b-99fb-fc3b3cf13461" name="Default Changelist" comment="" />
+    <list default="true" id="bcda0c6e-1c6d-415b-99fb-fc3b3cf13461" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/base/RequestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/models/base/RequestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/base/ResponseModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/models/base/ResponseModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/base/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/models/base/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/core/Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/core/Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/models/HelloResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/resources/HelloPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/src/resources/PreparePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/src/resources/PreparePage.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,12 +35,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1d7o1cDEKFMLhXhUIN6ynqVzfsA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -52,7 +73,7 @@
       <workItem from="1591836279813" duration="864000" />
       <workItem from="1592260008838" duration="4295000" />
       <workItem from="1592860619980" duration="9238000" />
-      <workItem from="1592889890658" duration="1536000" />
+      <workItem from="1592889890658" duration="6556000" />
     </task>
     <servers />
   </component>
@@ -64,10 +85,18 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="171" y="0" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1591785354758" />
-    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1592879688480">
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser" timestamp="1592941716846">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1592879688480" />
+    <state x="773" y="263" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1592941716846" />
+    <state x="585" y="471" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1592940370679">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="585" y="471" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592940370679" />
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592955848573">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="698" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1080@0.0.1920.1080" timestamp="1592955848573" />
     <state x="448" y="121" key="SettingsEditor" timestamp="1592889792369">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
